@@ -67,15 +67,56 @@ function AddJobsForm() {
                <div className="row">
                     <div className="col-md-1"></div>
                     <div className="col-md-5">
-                    <div className="form-group p_10">
-                    <label className="font_weight_bold">PPT Date&nbsp;<span className="text_feedback">*</span></label>
-                    <input type="date" className="form-control"/>    
-                    </div>
+                        <div className="form-group p_10">
+                        <label className="font_weight_bold">PPT Date</label>
+                        <input type="date" className="form-control"/>    
+                        </div>
                     </div>
                     <div className="col-md-5">
                         <div className="form-group p_10">
                         <label className="font_weight_bold">Test Date&nbsp;<span className="text_feedback">*</span></label>
                         <input type="datetime-local" className="form-control"/>    
+                        </div>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-1"></div>
+                    <div className="col-md-5">
+                        <div className="form-group p_10">
+                        <label className="font_weight_bold">Interview Date(From)&nbsp;<span className="text_feedback">*</span></label>
+                        <input type="date" className="form-control"/>    
+                        </div>
+                    </div>
+                    <div className="col-md-5">
+                        <div className="form-group p_10">
+                        <label className="font_weight_bold">Interview Date(To)&nbsp;<span className="text_feedback">*</span></label>
+                        <input type="date" className="form-control"/>    
+                        </div>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-1"></div>
+                    <div className="col-md-10">
+                        <div className="form-group p_10">
+                            <label className="font_weight_bold">Job Description</label>
+                            <textarea className="form-control" rows={5}></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-1"></div>
+                    <div className="col-md-10">
+                        <div className="form-group p_10">
+                            <label className="font_weight_bold">Upload Job Description</label>
+                            <input type="file" className="form-control"/>
+                        </div>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-md-1"></div>
+                    <div className="col-md-10">
+                        <div className="form-group p_10">
+                        <button type="submit" className="btn btn-lg btn-primary form-control">Submit</button>
                         </div>
                     </div>
                 </div>
