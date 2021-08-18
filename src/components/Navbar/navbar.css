@@ -1,0 +1,27 @@
+.topbar_wrapper
+{
+    box-shadow: 1px 1px 10px  ;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 20;
+    width:100%;
+
+}
+
+.sidebar_wrapper{
+    min-width:15%;
+    background-color: #313485;
+    min-height: 100vh;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    top: 76px;
+    z-index: 100;
+}
+.sidebar_items:hover{
+    
+    padding-left: 30px;
+    transition: .5s;
+    cursor: pointer;
+}
