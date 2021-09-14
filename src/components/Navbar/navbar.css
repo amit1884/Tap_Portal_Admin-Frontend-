@@ -19,9 +19,14 @@
     top: 76px;
     z-index: 100;
 }
+.sidebar_items{
+    color: #fff;
+}
 .sidebar_items:hover{
     
     padding-left: 30px;
     transition: .5s;
     cursor: pointer;
+    color: #fff;
+    text-decoration: none;
 }

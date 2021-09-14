@@ -1,17 +1,30 @@
-export const routes=[
+import Dashboard from './Pages/Dashobard'
+import Auth from './Pages/Auth'
+import AddJob from './Pages/AddJobs'
+import Jobs from './Pages/Jobs'
+export const Routes=[
     {
         id:1,
         path:'/',
-        exact:true
+        exact:true,
+        comp:Dashboard
     },
     {
         id:2,
         path:'/auth',
-        exact:true
+        exact:true,
+        comp:Auth
     },
     {
         id:3,
-        path:'/dashboard',
-        exact:true
+        path:'/addjob',
+        exact:true,
+        comp:AddJob
+    },
+    {
+        id:4,
+        path:'/jobs',
+        exact:true,
+        comp:Jobs
     }
 ]

@@ -1,0 +1,27 @@
+.job_desc{
+    padding:5px 2px;
+    overflow: hidden;
+}
+.job_desc p{
+    padding:1px;
+    margin:1px;
+    font-size: 12px;
+}
+.desg{
+    font-size: 20px !important;
+    font-weight: 550;
+}
+.btn_container{
+    position: relative;
+}
+.deadline{
+    position: absolute;
+    top:0;
+    right:0;
+    background-color: brown;
+    width:200px;
+    color:#fff;
+    text-align: center;
+    border-radius: 0 0 0 20px ;
+
+}

@@ -7,7 +7,9 @@ function index() {
             <div className="font-lg mb_10">
                 <p className="text_center">Add Jobs</p>
             </div>
+            <div className="row">
             <AddJobsForm/>
+            </div>
         </div>
     )
 }
