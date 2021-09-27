@@ -1,3 +1,5 @@
+
+
 export const branches=[
     {
         id:1,
@@ -63,7 +65,7 @@ export const testJobs=[
         company_name:'Amazon',
         position:'Software Development Engineer',
         eligible_branch:['CSE','ECE','EE'],
-        batch:['2022'],
+        batch:['2024'],
         '10th':'70',
         '12th':'70',
         'graduation':'8',

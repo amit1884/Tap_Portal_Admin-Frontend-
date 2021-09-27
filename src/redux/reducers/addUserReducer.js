@@ -1,22 +1,20 @@
-import { ADD_USER } from "../constants/actionTypes";
+import {  ADMIN_TYPE } from "../constants/actionTypes";
 
 const initialState = {
-    userData:{
-        name:'Amit Raj'
-    }
+    userData:{}
 };
 
-const addUserReducer = (state = initialState, action) => {
+const AdminReducer = (state = initialState, action) => {
   
   switch (action.type) {
-    case ADD_USER:
+    case ADMIN_TYPE:
       return {
           ...state,
-            userData:action.data
+            userData:action.payload
       };
     default:
       return state;
   }
 };
 
-export default addUserReducer;
+export default AdminReducer;

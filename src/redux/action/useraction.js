@@ -1,6 +1,6 @@
-import { ADD_USER } from '~/rdx/constants/actionTypes';
+import { ADMIN_TYPE } from '../constants/actionTypes';
 
-export const addUserAction = (data) => (dispatch) => {
+export const AdminAction = data => dispatch => {
   
-  dispatch({ type: ADD_USER, data });
+  dispatch({ type: ADMIN_TYPE, payload:data });
 };

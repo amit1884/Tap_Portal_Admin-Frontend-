@@ -1,4 +1,4 @@
-export const ADD_USER='ADD_USER'
+export const ADMIN_TYPE='ADMIN_TYPE'
 export const REMOVE_USER='REMOVE_USER'
 
 export const ADD_JOB='ADD_JOB'

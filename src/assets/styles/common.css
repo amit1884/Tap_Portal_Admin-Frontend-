@@ -204,6 +204,11 @@ padding-right: 20px;
     margin-left:250px;
     margin-top:80px;
 }
+.page_area_not_valid{
+    width: 100%;
+    margin:auto;
+    margin-top:80px;
+}
 
 input[type="checkbox"]{
 

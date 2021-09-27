@@ -2,7 +2,7 @@ import React from 'react'
 import './singlejob.css'
 import { FaTrash,FaPen,FaEye } from 'react-icons/fa'
 function SingleJobCard({data}) {
-    console.log(data,data.interview[0])
+    // console.log(data,data.interview[0])
     return (
         <div className="offset-md-1 col-md-10">
             <div className="card d_flex m_10">
